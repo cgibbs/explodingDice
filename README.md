@@ -1,0 +1,1 @@
+This rolls exploding dice a bunch to determine probabilities for tabletop systems. As far as I can tell, no one has made this tool, so now I have. If you found this and it's not a github.io page, it's probably not in a pretty enough state for you to easily run or understand it, but stay tuned.
