@@ -3,7 +3,7 @@ var rollDice = (die=10, numDice=1) => numDice > 0 ? getRandomInt(die) + rollDice
 
 rollExpDice = (numDice=1, isPipAvailable=0, passThresh=7, expThresh=9, pipBonus=1) => {
   if (numDice<1) return;
-    let ret = 0;
+  let ret = 0;
   while (numDice>0) {
     rollVal = rollDice();
     if (rollVal >= passThresh) {
