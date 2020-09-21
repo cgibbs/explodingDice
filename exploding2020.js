@@ -1,3 +1,6 @@
+getRandomInt = (max) => (Math.floor(Math.random() * Math.floor(max))) + 1;
+rollDice = (die=10, numDice=1) => numDice > 0 ? getRandomInt(die) + rollDice(die, numDice - 1) : 0;
+
 rollExpDice = (numDice=1, isPipAvailable=0, passThresh=7, expThresh=9, pipBonus=1) => {
   if (numDice<1) return;
     let ret = 0;
