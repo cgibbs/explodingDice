@@ -13,7 +13,7 @@ rollExpDice = (numDice=1, isPipAvailable=0, passThresh=7, expThresh=9, pipBonus=
 				isPipAvailable=0;   
 			}
 			if (rollVal < expThresh) numDice--;
-		}   
+		}
 	return ret;
 }
 
